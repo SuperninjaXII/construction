@@ -1,0 +1,34 @@
+@import url("./variables.css");
+body{
+  background: var(--bg);
+  color: var(--dark);
+}
+header{
+    display: flex;
+    width:100svw;
+    height:10vh;
+  nav{
+    display: inherit;
+    margin-left: auto;
+  }
+  ul{
+  display: inherit;
+  li{
+    margin:1rem;
+  }  
+}
+}
+.mission{
+  display: flex;
+  flex-direction:column;
+  width:100svh;
+  height:40svh;
+  h2{
+    font-size:2rem;
+    padding:.5rem;
+  }
+  p{
+    margin-left:50svw;
+  }
+
+}
