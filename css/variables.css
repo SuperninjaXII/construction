@@ -6,10 +6,6 @@
   --dark:#000000;
 }
 
-* {
-  background: rgba(233, 100, 255, 0.2);
-}
-
 *, :root, body {
   margin: 0;
 }
