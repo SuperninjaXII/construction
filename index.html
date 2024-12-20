@@ -1,100 +1,175 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link href="css/style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Robuild</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+                                                                                                                          crossorigin="anonymous">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100&icon_names=menu,open_in_new"
+                                                                                                                          rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        "FILL" 0,
+        "wght" 400,
+        "GRAD" 0,
+        "opsz" 24;
+    }
+  </style>
 </head>
 
 <body>
   <header>
-    <div class="nav-icon">
-      <p>menu</p>
-    </div>
-    <div class="brand">
-      <h1>ROBUILD</h1>
-    </div>
-    <div class="contact">
-      <a class="">contact</a>
-    </div>
+    
+    
+    <nav class="navbar navbar-expand-md navbar-light fixed-top   bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand " href="#"><img src="./images/logo.png" class="logo" alt="Robuild" />Robuild</a>
+        <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse"
+                                                                                                                                aria-expanded="false"
+                                                                                                                                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact-us</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+    
+    
   </header>
   <main>
     <section class="mission">
-      <div class="text">
-        <h2>Quality Service, Affordable Price</h2>
-        <p>Your satisfaction is our priority!</p>
-      </div>
-      <div class="more-text">
-        <p>"Our mission is to revolutionize the construction sector by delivering innovative, high-quality services that
-          exceed client expectations. We are committed to ensuring customer satisfaction and providing exceptional
-          construction solutions. Simply put, quality services and customer satisfaction beyond borders are our top
-          priorities."
+      <div class="containers m-0">
+        <img src="images/toilet.jpg" alt="Snow">
+        
+        <div class="centered">
+          <div class="content">
+            <h1>Affordable quality construction is </h1>
+            <p>is our mission</p>
+            <button class="btn btn-warning">Learn more</button>
+          </div>
           
-        </p>
-        <button>learn more</button>
-      </div>
-    </section>
-    <section class="display-images">
-      <div class="major-image">
-        <img class="" src="./images/toilet.jpg" alt="" />
-        <div class="topleft">
-          <h3>Septic Tank</h3>
-          <p>01</p>
         </div>
       </div>
+      
+      
+    </section>
+    <section class="history m-5">
+      <div class="text h1 text-light-emphasis text-center ">
+        <h1>a little bit of our history</h1>
+      </div>
+      <p class="text-body text-center">
+        Robuild Construction Limited is a forward-thinking company founded on the principles of quality, innovation, and
+        customer satisfaction. Since its inception, the company has positioned itself as a trusted partner in the
+        construction industry, delivering exceptional services to both private and public sector clients. With a mission
+        to redefine construction excellence, Robuild integrates cutting-edge technology, efficient project management
+        practices, and a customer-first approach to ensure projects are completed on time, within budget, and to the
+        highest standards.
+        
+        Despite being a relatively new player in the market, Robuild has successfully undertaken a range of impactful
+        projects, showcasing its commitment to excellence and adaptability. The company prides itself on fostering a
+        culture of teamwork and continuous learning, empowering its employees with technical expertise while promoting
+        innovation and creativity.
+        
+        Led by a highly experienced management team, including visionary professionals like Engineer Benjamin Manda,
+        Robuild combines strong leadership with a collaborative spirit to achieve its ambitious goals. By investing in
+        advanced construction techniques and nurturing long-term relationships with clients and suppliers, the company
+        is steadily building a reputation for reliability, excellence, and growth.
+        
+        At its core, Robuild Construction Limited remains dedicated to shaping a better future in the construction
+        sector—where innovation meets impeccable craftsmanship, and every client’s vision becomes a reality.
+        
+        
+      </p>
     </section>
     <section class="projects-container">
       <div class="heading">
         <div class="title">
-          <h1>projects</h1>
+          <h1 class="text-center ">projects</h1>
+          <p class="text-center  lead">examples of our work</p>
         </div>
-        <div class="about-us">
-          <p>
-            "Robuild Construction Limited focuses on profitability, partnerships, leadership in construction,
-            innovation, and operational excellence, delivering timely projects for public and private clients through a
-            skilled and collaborative management team."
-            
-            
-          </p>
-        </div>
-        
       </div>
       
       <div class="projects">
-        
-        
         <div class="project">
-          <div class="image">
-            <img class="" src="./images/toilet.jpg" alt="" />
+          <div class="card m-3" style="width: 18rem;">
+            <img src="images/project1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">01</p>
+            </div>
           </div>
-          <p>project name</p>
         </div>
+        <!--project-->
         <div class="project">
-          <div class="image">
-            
+          <div class="card m-3" style="width: 18rem;">
+            <img src="images/project2.jpg" class="imh img-fluidcard-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">01</p>
+            </div>
           </div>
-          <p>project name</p>
-        </div>
-        <div class="project">
           
-          <div class="image">
-            
+        </div>
+        <!--project-->
+        <div class="project">
+          <div class="card m-3" style="width: 18rem;">
+            <img src="images/project3.jpg" class="card-img-top img-fluid " alt="...">
+            <div class="card-body">
+              <p class="card-text">01</p>
+            </div>
           </div>
-          <p>project name</p>
+          
+        </div>
+        <!--project-->
+        <div class="project">
+          <div class="card m-3" style="width: 18rem;">
+            <img src="images/toilet.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text">01</p>
+            </div>
+          </div>
+          
         </div>
       </div>
     </section>
   </main>
-  <footer>
-    <ul class="triangle-list">
-      <li>home</li>
-      <li>projects</li>
-      <li>about</li>
-      <li>contact</li>
-    </ul>
-  </footer>
+  <div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a class="nav-link px-2 text-body-secondary" href="./contact.html">contact us</a>
+        </li>
+        
+        
+        <li class="nav-item"><a class="nav-link px-2 text-body-secondary" href="./About.html">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">&copy; 2024 Robuild Limited company</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+  <script>
+    eruda.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                                                                                                                          crossorigin="anonymous">
+  </script>
+  
+  <script src="src/js/app.js"></script>
 </body>
 
 </html>
