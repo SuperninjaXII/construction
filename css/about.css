@@ -15,4 +15,26 @@ main {
   margin: auto;
 }
 
+.imgC {
+  overflow: hidden;
+  width: 100svw;
+  height: 60svw;
+}
+.imgC img {
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+  .imgC {
+    height: 50svh;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for desktops and larger screens */
+  .imgC {
+    height: 40svh;
+  }
+}
+
 /*# sourceMappingURL=about.css.map */
