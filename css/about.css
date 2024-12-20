@@ -1,0 +1,18 @@
+.logo {
+  width: 3rem;
+}
+
+.brief {
+  margin-top: 10svh;
+  text-align: center;
+}
+
+main {
+  max-width: 100svw;
+}
+
+.map {
+  margin: auto;
+}
+
+/*# sourceMappingURL=about.css.map */

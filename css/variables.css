@@ -1,13 +1,20 @@
 :root {
-  --bg: #e5e5e5;
-  --light:#FFFFFF;
-  --accent:#FCA311;
-  --secondary:#14213D;
-  --dark:#000000;
+  --light: #e5e5e5;
+  --bg: #ffffff;
+  --accent: #fca311;
+  --secondary: #14213d;
+  --dark: #000000;
 }
 
-*, :root, body {
+@font-face {
+  font-family: helvetica;
+  src: url("./Helvetica.ttf");
+}
+*,
+:root,
+body {
   margin: 0;
+  font-family: helvetica;
 }
 
 /*# sourceMappingURL=variables.css.map */
